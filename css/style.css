@@ -1,0 +1,200 @@
+@import url('/fonts/Silka-Regular.otf');
+@import url('/fonts/Rene\ Bieder\ -\ Galano\ Grotesque\ DEMO\ Bold.otf');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Galano Grotesque DEMO;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0px auto;
+    padding: 0 20px;
+}
+
+.header {
+    padding: 25px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+   
+}
+
+.header__logo {
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__link {
+    font-family: 'Galano Grotesque DEMO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #282829;
+    text-decoration: none;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.menu__item:hover .menu__link {
+    color: #D96A65;
+}
+
+.central__text {
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #282829;
+}
+
+.hero {
+    background: rgba(30, 144, 255, 0.49);
+}
+
+.hero__freelancer {
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+    color: #282829;
+}
+
+.hero__title {
+    font-family: 'Galano Grotesque DEMO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #282829;
+}
+
+.hero {
+    height: 100vh;
+}
+.hero span {
+    color: #FFFFFF;
+}
+
+.hero .container {
+    
+}
+
+.about__me {
+    background: rgba(55, 66, 250, 0.5);
+}
+
+.about__me .container {
+    height: 100vh;
+    flex-direction: row-reverse;
+    
+    
+}
+
+.aboutme__title {
+    font-family: 'Galano Grotesque DEMO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.aboutme__pharagraph {
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.about__me span {
+    color: #3E39DE;
+}
+
+.aboutme__text {
+    position: relative;
+    top: -250px
+}
+
+.contact__me {
+    height: 100vh;
+    background: rgba(255, 99, 72, 0.5);
+    
+}
+
+.contact__me .container {
+    position: relative;
+    top: 150px;
+
+}
+
+.contactme__title {
+    font-family: 'Galano Grotesque DEMO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.contactme__pharagraph {
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.contactme__pharagraph span {
+    color: #CD5532;
+}
+
+.contactme__button {
+    margin: 20px 0 0;
+    background-color: white; 
+    border: none;
+    color: #C9502E;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Galano Grotesque DEMO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.contactme__button:hover {
+    background-color: #C9502E;
+    color: white;
+}
